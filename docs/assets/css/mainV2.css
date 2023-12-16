@@ -1,0 +1,658 @@
+/* Pour enlever les marges de la page */
+body {
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+/*Partie Header */
+.HeaderPartOne {
+    background-color: #24733F;
+    height: auto;
+    width: 100%;
+}
+
+.EmptyBlocTop {
+    width: 100%;
+    height: 10px;
+    background-color: #24733F;
+}
+
+    /* FirstLine part */
+        /* AutoSave Group */
+.AutoSaveText {
+    color: white;
+    width: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.CloseWindow:hover {
+    background-color: #F26B76;
+}
+
+.AutoSaveGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+        /* Title Part */
+.FirstTitle {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.RightGroupHeader {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.RightPartHeader {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ReduceWindow {
+    height: 2px;
+}
+
+.FirstLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.Tab a {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: #24733F;
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box; /* Inclut les marges et les bordures dans la largeur totale */
+    flex-grow: 1; /* Ajuste la taille de chaque élément pour occuper tout l'espace disponible */
+}
+
+.Tab ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 100%; /* L'élément occupe 100% de la largeur */
+}
+
+.Tab li {
+    flex: 1; /* Chaque élément <li> prendra une part égale de l'espace disponible */
+}
+
+/* Ajoutez ce style pour définir les couleurs */
+.nav-link {
+    color: white;
+    background-color: #24733F;
+    width: 100%; /* Le fond occupe 100% de la largeur du parent */
+    display: block; /* Pour occuper toute la largeur du parent */
+}
+
+.nav-link.active {
+    color: #24733F;
+    background-color: white;
+    width: 100%; /* Le fond occupe 100% de la largeur du parent */
+    display: block; /* Pour occuper toute la largeur du parent */
+}
+
+/* Header part Two*/
+.HeaderPartTwo {
+    width: 100%;
+    height: auto;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-top: -16px; */
+    border-bottom: 1px solid #8E8E8E;
+}
+
+.PoisitionBloc {
+    width: 20%;
+    height: auto;
+    justify-content: space-between;
+    background-color: white;
+    margin: 1%;
+    padding: 0.25%;
+    border: 1px solid #8E8E8E;
+    display: flex;
+    align-items: center;
+}
+
+.PoisitionBlocArrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #8E8E8E; /* Couleur de fond */
+}
+
+.Points {
+    display: flex;
+    flex-direction: column;
+}
+
+.Square {
+    width: 5px;
+    height: 5px;
+    background-color: #8E8E8E;
+    margin: 1px;
+}
+
+.FormulaBloc {
+    background-color: white;
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    padding: 0.25%;
+    border: 1px solid #8E8E8E;
+    align-items: center;
+}
+
+.Profil {
+    height: 25%;
+    width: 25%;
+    border: 4px solid #24733F;
+}
+
+.StatusText {
+    font-size: 200%;
+}
+
+.Separator {
+    background-color: #24733F;
+    height: 5px;
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Status {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Host {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+
+.AboutTable {
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid #000; /* Ajoute une bordure */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.AboutTable td {
+    border: 1px solid #000; /* Ajoute une bordure autour de chaque cellule */
+    padding: 3%; /* Ajoute un peu d'espace à l'intérieur des cellules */
+    text-align: center; /* Centre le texte dans les cellules */
+    font-weight: bold; /* Met le texte en gras */
+}
+
+.Line1 {
+    background-color: #96BFD9; /* Couleur de fond pour la première ligne */
+    font-size: 40px;
+}
+
+.Line2 {
+    background-color: #DCEAF2; /* Couleur de fond pour la deuxième ligne */
+    font-size: 16px;
+}
+
+.Skills {
+    margin-top: 10%;
+}
+
+.EmptyBlocTop2 {
+    /* margin-top: 100px; */
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+
+
+.progress-bar1 {
+    width: 50%; /* Largeur totale de la barre de progression */
+    height: 30px; /* Hauteur de la barre de progression */
+    background-color: #f3f3f3; /* Couleur de fond de la barre de progression */
+    border: 1px solid #ccc; /* Bordure de la barre de progression */
+    position: relative; /* Position relative pour positionner le texte à l'intérieur */
+    margin-left: 5%;
+}
+
+.progress-fill1 {
+    height: 100%; /* Remplissage à 100% de la hauteur de la barre de progression */
+    background: linear-gradient(to right, #65BF7C,#B7D984, #F2D680, #F2A477, #F26B76); /* Couleur de remplissage de la barre de progression */
+    width: 80%; /* Remplissage de 50% (ajustez selon vos besoins) */
+}
+
+.progress-text1 {
+    position: absolute; /* Position absolue pour placer le texte au centre */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centre le texte horizontalement et verticalement */
+    color: #000; /* Couleur du texte */
+}
+
+.ProgressBar1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.SkillsTitle {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    width: auto;
+}
+
+.progress-bar2 {
+    width: 50%;
+    height: 30px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-left: 5.2%;
+}
+
+.progress-fill2 {
+    height: 100%; 
+    background: linear-gradient(to right, #65BF7C,#B7D984, #F2D680, #F2A477, #F26B76);
+    width: 40%;
+}
+
+.progress-text2 {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: #000;
+}
+
+.ProgressBar2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.SkillText {
+    font-size: 20px;
+    text-align: right;
+}
+
+.progress-bar3 {
+    width: 50%;
+    height: 30px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-left: 2.5%;
+}
+
+.progress-fill3 {
+    height: 100%;
+    background: linear-gradient(to right, #65BF7C,#B7D984, #F2D680, #F2A477, #F26B76);
+    width: 90%;
+}
+
+.progress-text3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+}
+
+.ProgressBar3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.progress-bar4 {
+    width: 50%;
+    height: 30px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-left: 2%;
+}
+
+.progress-fill4 {
+    height: 100%;
+    background: linear-gradient(to right, #65BF7C,#B7D984, #F2D680, #F2A477, #F26B76);
+    width: 40%;
+}
+
+.progress-text4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+}
+
+.ProgressBar4 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.ExperiencesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ExpTitle, .FormationTitle {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.ExperienceTitle, .Formation {
+    font-size: 30px;
+}
+
+.Business {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+    white-space: nowrap;
+}
+
+.ExperienceBusiness {
+    margin-right: 3%;
+}
+
+.ExperiencePeriod {
+    margin-left: 3%;
+}
+
+.ExperienceLittleSeparator {
+    width: 15%;
+    height: 2px;
+    background-color: #24733F;
+}
+
+.ExperienceBigSeparator {
+    width: 25%;
+    height: 5px;
+    background-color: #24733F;
+    margin-bottom: 5%;
+}
+
+.ExperienceTask, .FormationExperience {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Experience1, .Formation1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Experience2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Experience3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FormationPeriod {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.TextZone {
+    height: 10%;
+    width: 80%;
+    padding: 0.5%;
+    position: absolute;
+    color: #000;
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+
+.SendButton {
+    width: auto;
+    height: auto;
+    margin-top: -2%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 2.5px solid #8E8E8E;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color: white;
+    background-color: #24733F;
+}
+
+.SendButton:hover {
+    background-color: white;
+    color: #24733F;
+    cursor:pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Formation2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Formation3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ContactTitle {
+    font-size: 40px;
+    color: #000;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.FistrNameContact, .LastNameContact {
+    border: 2px solid #8E8E8E;
+    height: auto;
+    width: auto;
+    padding: 1%;
+}
+
+.MailContact {
+    border: 2px solid #8E8E8E;
+    height: auto;
+    width: 80%;
+    padding: 2%;
+}
+
+.InfoContact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.InfoContact2 {
+    width: 150%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.FooterPart1 {
+    background-color: #ccc;
+    height: 30px;
+    width: 100%;
+    border-top: 2px solid #8E8E8E;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.FooterPart2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F2F1;
+    height: 20px;
+    width: 100%;
+}
+
+.PositionBlocArrowRight {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #8E8E8E; /* Couleur de fond */
+    margin-left: 50%;
+
+    /* Rotation de 90 degrés vers la gauche */
+    transform: rotate(-90deg);
+}
+
+.PositionBlocArrowLeft {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #8E8E8E; /* Couleur de fond */
+    margin-left: 50%;
+    
+    /* Rotation de 90 degrés vers la gauche */
+    transform: rotate(90deg);
+}
+
+.ArrowBlocs {
+    display: flex;
+    margin-left: 2.5%;
+}
+
+.TabBloc1 {
+    display:flex;
+    align-items: center;
+    height: 22px;
+    background-color: white;
+    color: #24733F;
+    border-left: 2px solid #8E8E8E;
+    border-right: 2px solid #8E8E8E;
+    border-top: 2px solid white;
+    margin-top: -6px;
+    width: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.TabBloc2 {
+    height: 2.5px;
+    background-color: #24733F;
+}
+.tab {
+    display: flex;
+    flex-direction: column;  
+}
+
+.AutoSaveBar2 {
+    position: relative;
+    width: 100px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background-color: #24733F;
+    border: 2px solid white;
+}
+
+.WhiteCircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-180%, -50%);
+    width: 25px; /* Ajustez la taille du cercle selon vos besoins */
+    height: 25px; /* Ajustez la taille du cercle selon vos besoins */
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.3s ease; /* Ajout d'une transition pour une animation fluide */
+}
+
+.AutoSaveBar2.clicked .WhiteCircle {
+    transform: translate(80%, -50%);
+}
+
+#formation {
+    padding-top: 200px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;   
+}

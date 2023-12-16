@@ -1,0 +1,40 @@
+<!DOCTYPE html lang="fr">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Antonin GOURINCHAS - PortFolio</title>
+        <link rel="stylesheet" href="assets/css/mainV2.css">
+        <script src="assets/js/script.js"></script>
+    </head>
+
+    <body>
+        
+        <section class="AutoSaveGroup" id="autoSaveGroup">
+            <div class="AutoSaveText">Enregistrement automatique</div>
+            <div class="AutoSaveBar2" id="autoSaveBar">
+                <div class="WhiteCircle" id="whiteCircle"></div>
+            </div>
+        </section>
+        
+        <script>
+            document.getElementById('autoSaveBar').addEventListener('click', function() {
+                this.classList.toggle('clicked');
+        
+                if (this.classList.contains('clicked')) {
+                    // Créer un lien de téléchargement
+                    const downloadLink = document.createElement('a');
+                    downloadLink.href = "assets/PDF/CV Antonin GOURINCHAS.pdf";  // Remplacez ceci par le chemin vers votre fichier PDF
+                    downloadLink.download = 'CV Antonin GOURINCHAS.pdf';  // Remplacez ceci par le nom que vous souhaitez pour le fichier
+                    document.body.appendChild(downloadLink);
+        
+                    // Simuler un clic sur le lien
+                    downloadLink.click();
+        
+                    // Supprimer le lien après le téléchargement
+                    document.body.removeChild(downloadLink);
+                }
+            });
+        </script>
+                        
+    </body>
+</html>

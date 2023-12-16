@@ -1,0 +1,403 @@
+<!DOCTYPE html lang="fr">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Antonin GOURINCHAS - PortFolio</title>
+        <link rel="stylesheet" href="assets/css/mainV2.css">
+        <script src="assets/js/script.js"></script>
+    </head>
+
+    <body>
+
+        <section class="header">
+            
+            <section class="HeaderPartOne">
+
+                <div class="EmptyBlocTop"></div>
+
+                <section class="FirstLine">
+
+                    <section class="AutoSaveGroup"> <!-- Groupe AutoSave avec le texte et le logo .png-->
+
+                        <div class="AutoSaveText">Enregistrement automatique</div>
+                        <section class="AutoSaveGroup" id="autoSaveGroup">
+                            <div class="AutoSaveBar2" id="autoSaveBar">
+                                <div class="WhiteCircle" id="whiteCircle"></div>
+                                <script>
+                                    document.getElementById('autoSaveBar').addEventListener('click', function() {
+                                        this.classList.toggle('clicked');
+                                
+                                        if (this.classList.contains('clicked')) {
+                                            // Créer un lien de téléchargement
+                                            const downloadLink = document.createElement('a');
+                                            downloadLink.href = "assets/PDF/CV Antonin GOURINCHAS.pdf";  // Chemin du fichier PDF
+                                            downloadLink.download = 'CV Antonin GOURINCHAS.pdf';  // Nom que j'attribu au fichier
+                                            document.body.appendChild(downloadLink);
+                                
+                                            // Simuler un clic sur le lien
+                                            downloadLink.click();
+                                
+                                            // Supprimer le lien après le téléchargement
+                                            document.body.removeChild(downloadLink);
+                                        }
+                                    });
+                                </script>
+                        
+                            </div>
+                        </section>
+                                    
+                    </section>
+
+                    <section class="Title"> <!-- Section Title -->
+
+                        <div class="FirstTitle">Antonin GOURINCHAS - PortFolio</div>
+
+                    </section>
+
+                    <section class="RightPartHeader"> <!-- Section with 3 buttons .png -->
+
+                        <section class="RightGroupHeader">
+                            <img class="ReduceWindow" src="assets/images/ReduceWindow.png">
+                            <img class="MiddleWindow" src="assets/images/Reduce.png">
+                            <img class="CloseWindow" src="assets/images/Close.png">
+                        </section>
+
+                    </section>
+
+                </section>
+
+                <section class="Tab">
+
+                    <ul>
+                        <li><a href="#accueil" class="nav-link" id="accueil-link">Accueil</a></li>
+                        <li><a href="#a-propos" class="nav-link" id="a-propos-link">À propos</a></li>
+                        <li><a href="#competences" class="nav-link" id="competences-link">Compétences</a></li>
+                        <li><a href="#experiences" class="nav-link" id="experiences-link">Expérience</a></li>
+                        <li><a href="#formation" class="nav-link" id="formation-link">Formation</a></li>
+                        <li><a href="#contact" class="nav-link" id="contact-link">Contact</a></li>
+                    </ul>
+
+                </section>
+
+            </section>
+
+            <section class="HeaderPartTwo">
+
+                <section class="PoisitionBloc">
+
+                    <div class="PoisitionBlocText">Text</div>
+                    <div class="PoisitionBlocArrow"></div>
+
+                </section>
+
+                <section class="Points">
+
+                    <div class="Square"></div>
+                    <div class="Square"></div>
+                    <div class="Square"></div>
+
+                </section>
+
+                <section class="FormulaBloc">
+
+                    <div class="PoisitionBlocText">=A1*A2</div>
+                    <div class="PoisitionBlocArrow"></div>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <section class="Main">
+
+            <div class="EmptyBlocTop2" id="accueil"></div>
+            <section class="Host">
+
+                <img class="Profil" src="assets/images/IMG_9149.JPG">
+                <section class="Status">
+
+                    <div class="StatusText">TECHNICIEN INFORMATIQUE EN ALTERNANCE</div>
+                    <div class="Separator"></div>
+                    <div class="StatusText">DÉVELOPPEUR VBA</div>
+
+                </section>
+
+            </section>
+
+            <div class="EmptyBlocTop2"></div>
+            <section class="About" id="a-propos"> 
+
+                <table class="AboutTable">
+                    <tr>
+                        <td class="Line1">À PROPOS</td>
+                    </tr>
+                    <tr>
+                        <td class="Line2">
+                            <p>Bonjour et bienvenu sur mon PortFolio ! Ici, vous trouverez un aperçu de mes compétences, 
+                                de mon expérience ainsi que de mon parcours professionnel. Je vous invite à découvrir les différentes 
+                                sections de ma feuille pour en apprendre davanatge sur moi.</p>
+                            </br>
+                            <p>Je suis un jeune homme de 21 ans actuellement en BTS SIO (Services Informatiques aux Organisations) avec
+                                une spécialisation en développement. Je poursuis cette formation en alternance chez les cabinets d'expert
+                                comptable Tacher Acogex où j'occupe le poste de technicien informatique.
+                            </p>
+                            </br>
+                            <p>Grâce à deux années d'expérience en tant qu'assistant contrôleur de gestion commerciale lors de mon précédent 
+                                BTS comptabilité et gestion en alternance; j'ai pu développer mes compétences dans l'utilisation d'Excel, de 
+                                PowerPoint ainsi que dans la programmation en Visual Basic for Application. Je continue d'affiner ces
+                                compétences dans ma nouvelle alternance en automatisant des caisses comptables. De plus, je suis en train
+                                d'acquérir de nouvelles compétences en réseau ainsi qu'en développement web et en cyber-sécurité.</p>
+                            </br>
+                            <p>Je vous convie à parcourir mon site pour en savoir plus sur mon parcours professionnel. Vous pouvez
+                                également me suivre sur mes réseaux sociaux pour rester informé de mes dernières actualités. Si vous
+                                souhaitez entrer en contact avec moi, n'hésitez pas à le faire via mes réseaux sociaux ou en utilisant
+                                la rubrique "Contact" de mon site.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                
+            </section>
+
+            <section class="Skills" id="competences">
+
+                <div class="SkillsTitle">MES COMPÉTENCES</div>
+                <section class="ProgressBar1">
+
+                    <div class="progress-bar1">
+                        <div class="progress-fill1"></div>
+                        <div class="progress-text1">80%</div>
+                    </div>
+                    <div class="SkillText">Excel</div>
+
+                </section>
+
+                <section class="ProgressBar2">
+
+                    <div class="progress-bar2">
+                        <div class="progress-fill2"></div>
+                        <div class="progress-text2">40%</div>
+                    </div>
+                    <div class="SkillText">VBA</div>
+
+                </section>
+                        
+                <section class="ProgressBar3">
+
+                    <div class="progress-bar3">
+                        <div class="progress-fill3"></div>
+                        <div class="progress-text3">90%</div>
+                    </div>
+                    <div class="SkillText">PowerPoint</div>
+
+                </section>
+
+                <section class="ProgressBar4">
+
+                    <div class="progress-bar4">
+                        <div class="progress-fill4"></div>
+                        <div class="progress-text4">40%</div>
+                    </div>
+                    <div class="SkillText">HTML / CSS</div>
+
+                </section>
+
+            </section>
+
+            <section class="Experiences" id="experiences">
+
+                <div class="ExpTitle">MES EXPÉRIENCES</div>
+                <section class="ExperiencesList">
+
+                    <section class="Experience1">
+
+                        <div class="ExperienceTitle">Technicien Informatique</div>
+                        <section class="Business">
+
+                            <div class="ExperienceBusiness">Tacher Acogex</div>
+                            <div class="ExperiencePeriod">Sept 2023 - Août 2025</div>
+                            
+                        </section>
+                        <div class="ExperienceLittleSeparator"></div>
+                        <div class="ExperienceTask">
+                            <p>Gestion matériel du parc informatique de l'entreprise.</p>
+                            <p>Développement de caisses automatisées pour le traitement des fichiers client.</p>
+                            <p>Dépannage des collaborateurs par téléphone ou directement dans le cabinet.</p>
+                        </div>
+                        <div class="ExperienceBigSeparator"></div>
+
+                    </section>
+
+                    <section class="Experience2">
+
+                        <div class="ExperienceTitle">Assistant contrôleur de gestion</div>
+                        <section class="Business">
+
+                            <div class="ExperienceBusiness">Laboratoires URGO Healthcare</div>
+                            <div class="ExperiencePeriod">Août 2021 - Août 2023</div>
+                            
+                        </section>
+                        <div class="ExperienceLittleSeparator"></div>
+                        <div class="ExperienceTask">
+                            <p class="ExperienceTask">Gestion et surveillance des notes de frais des forces de vente, y compris l'approbation des dépenses, 
+                                la vérification des justificatifs et la conformité aux politiques de l'entreprise.</p>
+                            <p class="ExperienceTask">Gestion du parc de cartes affaires, y compris la distribution et la gestion des dépenses associées.</p>
+                            <p class="ExperienceTask">Création de reporting réguliers pour les forces de vente, en utilisant Excel pour automatiser les processus de collecte et d'analyse de données.</p>
+                        </div>
+                        <div class="ExperienceBigSeparator"></div>
+
+                    </section>
+
+                    <section class="Experience3">
+
+                        <div class="ExperienceTitle">Équipier polyvalent</div>
+                        <section class="Business">
+
+                            <div class="ExperienceBusiness">Orazur - McDonald's</div>
+                            <div class="ExperiencePeriod">Juin 2021 - Août 2021</div>
+                            
+                        </section>
+                        <div class="ExperienceLittleSeparator"></div>
+                        <div class="ExperienceTask">
+                            <p class="ExperienceTask">Préparation des aliments selon les normes de qualité en suivant les procédures établies pour chaque produit et en utilisant 
+                                les équipements appropriés.</p>
+                            <p class="ExperienceTask">Maintien de la propreté et de l'hygiène de la cuisine et des équipements.</p>
+                            <p class="ExperienceTask">Suivi des instructions des superviseurs pour assurer le bon fonctionnement de la cuisine, y compris le suivi des commandes, 
+                                la gestion des stocks et la prépration des commandes.</p>
+                        </div>
+                        <div class="ExperienceBigSeparator"></div>
+
+                    </section>
+
+
+                </section>
+
+            </section>
+
+            <section class="Formations" id="formation">
+
+                <div class="FormationTitle">MES FORMATIONS</div>
+                <section class="Formation1">
+
+                    <section class="School">
+
+                        <div class="Formation">Formation Excel</div>
+                        <div class="FormationPeriod">Juin 2020</div>
+                        
+                    </section>
+                    <div class="ExperienceLittleSeparator"></div>
+                    <p class="FormationExperience">Acquisition des connaissances fondamentales d'Excel, 
+                        incluant la mise en forme basique et conditionnelle, 
+                        la création de tableaux croisés dynamiques ainsi que l'utilisation de</p>
+                        <p class="FormationExperience">formules allant des plus simples 
+                        aux plus avancées telles que les fonctions SI imbriquées et RECHERCHEX.</div>
+                    <div class="ExperienceBigSeparator"></div>
+
+                </section>
+
+                <section class="Formation2">
+
+                    <div class="Formation">BTS comptabilité et gestion en alternance</div>
+                    <div class="FormationPeriod">Septembre 2021 - Juin 2023</div>
+                    <div class="ExperienceLittleSeparator"></div>
+                    <p class="FormationExperience">Étude des bases de la comptabilité ainsi que du contrôle de gestion.</p>
+                    <div class="ExperienceBigSeparator"></div>
+                </section>
+
+                <section class="Formation3">
+
+                    <div class="Formation">BTS SIO en alternance</div>
+                    <div class="FormationPeriod">Septembre 2023 - Juin 2025</div>
+                    <div class="ExperienceLittleSeparator"></div>
+                    <p class="FormationExperience">Étude des bases en réseau, en sécurité ainsi qu'en développement web.</p>
+                    <div class="ExperienceBigSeparator"></div>
+                </section>
+
+            </section>
+
+            <section class="contact" id="contact">
+                <div class="ContactTitle">ME CONTACTER</div>
+
+                <section class="InfoContact">
+
+                    <!-- <section class="InfoContact2">
+                        <textarea class="FistrNameContact" placeholder="Nom"></textarea>
+                        <textarea class="LastNameContact" placeholder="Prénom"></textarea>
+                    </section>
+
+                    <textarea class="MailContact" placeholder="Votre adresse mail"></textarea>
+
+                </section>
+
+                <textarea placeholder="Écrivez votre message ici ..." class="TextZone"></textarea>
+                <div class="SendButton">Envoyer</div> -->
+
+                <form name="formulary" action="formulaire.php" method="get" class="">
+                    <p>
+                        <input type="radio" name="civil" value="Mme" /> Madame
+                        <input type="radio" name="civil" value="Mr" /> Monsieur
+                    </p>
+                    <p>
+                        Votre prénom :<br />
+                        <input type="text" name="firstname" value="" />
+                    </p>
+                    <p>
+                        Votre nom :<br />
+                        <input type="password" name="name" value="" /> 
+                    </p>
+                    <p>
+                        Vous êtes :<br />
+                        <select name="profil">
+                            <option value="parti">Un particulier</option>
+                            <option value="profe">Un professionnel</option>
+                        </select>
+                    </p>
+                    <p>
+                        Quel type de prestation recherchez vous ?<br />
+                        <br />
+                        <input type="checkbox" name="interest" value="for" />Formation Excel <br />
+                        <input type="checkbox" name="interest" value="deve1" />Création de tableau Excel<br />
+                        <input type="checkbox" name="interest" value="deve2" />Automatisation de tâches sur Excel<br />
+                        <input type="checkbox" name="interest" value="devw1" /> Développement web en HTML, CSS et JS<br />
+                        <input type="checkbox" name="interest" value="other" />Autre<br />
+                    </p>
+                    <p>
+                        Votre message :<br />
+                        <textarea name="message" rows="6" cols="40" placeholder="Saisissez votre message ici"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Send" />
+                        <input type="reset" value="Clear" />
+                    </p>
+                </form>
+            </section>
+            
+        </section>
+
+        <section class="footer">
+
+            <section class="FooterPart1">
+
+                <section class="ArrowBlocs">
+                    <span class="PositionBlocArrowLeft"></span>
+                    <span class="PositionBlocArrowRight"></span>
+                </section>
+
+                <section class="tab">
+                    <span class="TabBloc1"><strong>PortFolio1</strong></span>
+                    <span class="TabBloc2"></span>
+                </section>
+
+            </section>
+
+            <section class="FooterPart2">
+                <span class="footertext">
+                    Antonin GOURINCHAS © 2023, Tous droits réservés – Réalisation Antonin GOURINCHAS – Mentions légales – CGU – Politique de confidentialité – Médiateur à la consommation
+                </span>
+            </section>
+        </section>
+
+
+    </body>
+</html>
