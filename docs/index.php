@@ -130,65 +130,10 @@ require_once("yaml/yaml.php");
         <?php
         require("assets/php/formation.php");
         ?>
-            <section class="contact" id="contact">
-                <div class="ContactTitle">ME CONTACTER</div>
-
-                <section class="InfoContact">
-
-                    <!-- <section class="InfoContact2">
-                        <textarea class="FistrNameContact" placeholder="Nom"></textarea>
-                        <textarea class="LastNameContact" placeholder="Prénom"></textarea>
-                    </section>
-
-                    <textarea class="MailContact" placeholder="Votre adresse mail"></textarea>
-
-                </section>
-
-                <textarea placeholder="Écrivez votre message ici ..." class="TextZone"></textarea>
-                <div class="SendButton">Envoyer</div> -->
-
-                <form name="formulary" action="formulaire.php" method="get" class="">
-                    <p>
-                        <input type="radio" name="civil" value="Mme" /> Madame
-                        <input type="radio" name="civil" value="Mr" /> Monsieur
-                    </p>
-                    <p>
-                        Votre prénom :<br />
-                        <input type="text" name="firstname" value="" />
-                    </p>
-                    <p>
-                        Votre nom :<br />
-                        <input type="password" name="name" value="" /> 
-                    </p>
-                    <p>
-                        Vous êtes :<br />
-                        <select name="profil">
-                            <option value="parti">Un particulier</option>
-                            <option value="profe">Un professionnel</option>
-                        </select>
-                    </p>
-                    <p>
-                        Quel type de prestation recherchez vous ?<br />
-                        <br />
-                        <input type="checkbox" name="interest" value="for" />Formation Excel <br />
-                        <input type="checkbox" name="interest" value="deve1" />Création de tableau Excel<br />
-                        <input type="checkbox" name="interest" value="deve2" />Automatisation de tâches sur Excel<br />
-                        <input type="checkbox" name="interest" value="devw1" /> Développement web en HTML, CSS et JS<br />
-                        <input type="checkbox" name="interest" value="other" />Autre<br />
-                    </p>
-                    <p>
-                        Votre message :<br />
-                        <textarea name="message" rows="6" cols="40" placeholder="Saisissez votre message ici"></textarea>
-                    </p>
-                    <p>
-                        <input type="submit" value="Send" />
-                        <input type="reset" value="Clear" />
-                    </p>
-                </form>
-            </section>
-            
-        </section>
-
+        <?php
+        require("assets/php/contact.php");
+        ?>
+        
         <section class="footer">
 
             <section class="FooterPart1">

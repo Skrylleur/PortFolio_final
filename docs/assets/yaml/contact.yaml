@@ -1,0 +1,29 @@
+title: ME CONTACTER
+
+yourGender: Vous êtes
+
+gender:
+  - Madame
+  - Monsieur
+  - Autre
+
+yourFirstName: Votre prénom
+
+yourName: Votre nom
+
+youAre: Vous êtes
+
+profil:
+  - Un particulier
+  - Un professionnel
+
+question: Quel type de prestation recherchez vous ?
+
+interests:
+  - Formation Excel
+  - Création de tableau Excel
+  - Automatisation de tâches sur Excel
+  - Développement web en HTML, CSS et JS
+  - Autre
+
+yourMessage : Votre message
