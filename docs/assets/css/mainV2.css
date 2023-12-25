@@ -93,26 +93,25 @@ body {
     list-style-type: none;
     padding: 0;
     display: flex;
-    width: 100%; /* L'élément occupe 100% de la largeur */
+    width: 100%;
 }
 
 .Tab li {
-    flex: 1; /* Chaque élément <li> prendra une part égale de l'espace disponible */
+    flex: 1;
 }
 
-/* Ajoutez ce style pour définir les couleurs */
 .nav-link {
     color: white;
     background-color: #24733F;
-    width: 100%; /* Le fond occupe 100% de la largeur du parent */
+    width: 100%;
     display: block; /* Pour occuper toute la largeur du parent */
 }
 
 .nav-link.active {
     color: #24733F;
     background-color: white;
-    width: 100%; /* Le fond occupe 100% de la largeur du parent */
-    display: block; /* Pour occuper toute la largeur du parent */
+    width: 100%;
+    display: block;
 }
 
 /* Header part Two*/
@@ -123,7 +122,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* margin-top: -16px; */
     border-bottom: 1px solid #8E8E8E;
 }
 
@@ -209,25 +207,25 @@ body {
 .AboutTable {
     border-collapse: collapse;
     width: 80%;
-    border: 2px solid #000; /* Ajoute une bordure */
+    border: 2px solid #000;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .AboutTable td {
-    border: 1px solid #000; /* Ajoute une bordure autour de chaque cellule */
-    padding: 3%; /* Ajoute un peu d'espace à l'intérieur des cellules */
-    text-align: center; /* Centre le texte dans les cellules */
-    font-weight: bold; /* Met le texte en gras */
+    border: 1px solid #000;
+    padding: 3%;
+    text-align: center;
+    font-weight: bold;
 }
 
 .Line1 {
-    background-color: #96BFD9; /* Couleur de fond pour la première ligne */
+    background-color: #96BFD9;
     font-size: 40px;
 }
 
 .Line2 {
-    background-color: #DCEAF2; /* Couleur de fond pour la deuxième ligne */
+    background-color: #DCEAF2;
     font-size: 16px;
 }
 
@@ -236,7 +234,6 @@ body {
 }
 
 .EmptyBlocTop2 {
-    /* margin-top: 100px; */
     width: 100%;
     height: 10px;
     background-color: white;
@@ -247,23 +244,23 @@ body {
     width: 50%; /* Largeur totale de la barre de progression */
     height: 30px; /* Hauteur de la barre de progression */
     background-color: #f3f3f3; /* Couleur de fond de la barre de progression */
-    border: 1px solid #ccc; /* Bordure de la barre de progression */
-    position: relative; /* Position relative pour positionner le texte à l'intérieur */
+    border: 1px solid #ccc;
+    position: relative;
     margin-left: 5%;
 }
 
 .progress-fill1 {
-    height: 100%; /* Remplissage à 100% de la hauteur de la barre de progression */
-    background: linear-gradient(to right, #65BF7C,#B7D984, #F2D680, #F2A477, #F26B76); /* Couleur de remplissage de la barre de progression */
-    width: 80%; /* Remplissage de 50% (ajustez selon vos besoins) */
+    height: 100%;
+    background: linear-gradient(to right, #65BF7C,#B7D984, #F2D680, #F2A477, #F26B76);
+    width: 80%; /* Remplissage de 80% */
 }
 
 .progress-text1 {
-    position: absolute; /* Position absolue pour placer le texte au centre */
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centre le texte horizontalement et verticalement */
-    color: #000; /* Couleur du texte */
+    transform: translate(-50%, -50%);
+    color: #000;
 }
 
 .ProgressBar1 {
@@ -565,7 +562,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #F3F2F1;
-    height: 20px;
+    height: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
     width: 100%;
 }
 
@@ -574,7 +573,7 @@ body {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 12px solid #8E8E8E; /* Couleur de fond */
+    border-top: 12px solid #8E8E8E;
     margin-left: 50%;
 
     /* Rotation de 90 degrés vers la gauche */
@@ -586,10 +585,10 @@ body {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 12px solid #8E8E8E; /* Couleur de fond */
+    border-top: 12px solid #8E8E8E;
     margin-left: 50%;
     
-    /* Rotation de 90 degrés vers la gauche */
+    /* Rotation de 90 degrés vers la droite */
     transform: rotate(90deg);
 }
 
@@ -637,8 +636,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-180%, -50%);
-    width: 25px; /* Ajustez la taille du cercle selon vos besoins */
-    height: 25px; /* Ajustez la taille du cercle selon vos besoins */
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background-color: white;
     transition: transform 0.3s ease; /* Ajout d'une transition pour une animation fluide */
@@ -649,6 +648,22 @@ body {
 }
 
 #formation {
+    padding-top: 200px;
+}
+
+#a-propos  {
+    padding-top: 200px;
+}
+
+#competences {
+    padding-top: 200px;
+}
+
+#experiences {
+    padding-top: 200px;
+}
+
+#contact {
     padding-top: 200px;
 }
 
