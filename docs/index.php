@@ -117,48 +117,21 @@ require_once("yaml/yaml.php");
             
             <?php
             require("assets/php/accueil.php");
-            ?>
-            <?php
             require("assets/php/a_propos.php");
-            ?>
-            <?php
             require("assets/php/competences.php");
-            ?>
-            <?php
             require("assets/php/experiences.php");
-            ?>
-            <?php
             require("assets/php/formation.php");
-            ?>
-            <?php
             require("assets/php/contact.php");
             ?>
         
         </section>
         
         <section class="footer">
+            
+        <?php
+        require("assets/php/footer.php");?>
 
-            <section class="FooterPart1">
-
-                <section class="ArrowBlocs">
-                    <span class="PositionBlocArrowLeft"></span>
-                    <span class="PositionBlocArrowRight"></span>
-                </section>
-
-                <section class="tab">
-                    <span class="TabBloc1"><strong>PortFolio1</strong></span>
-                    <span class="TabBloc2"></span>
-                </section>
-
-            </section>
-
-            <section class="FooterPart2">
-                <span class="footertext">
-                    Antonin GOURINCHAS © 2023, Tous droits réservés – Réalisation Antonin GOURINCHAS – Mentions légales – CGU – Politique de confidentialité – Médiateur à la consommation
-                </span>
-            </section>
         </section>
-
 
     </body>
 </html>

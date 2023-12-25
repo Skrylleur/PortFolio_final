@@ -177,6 +177,8 @@ body {
 
 .StatusText {
     font-size: 200%;
+    display: flex;
+    text-align: center;
 }
 
 .Separator {
@@ -210,6 +212,7 @@ body {
     border: 2px solid #000;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 .AboutTable td {
@@ -618,7 +621,8 @@ body {
 }
 .tab {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    margin-left: 5%;
 }
 
 .AutoSaveBar2 {
